@@ -1,0 +1,16 @@
+{
+  "name": "@tolu/vite-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run --prefix apps/frontend dev",
+    "build": "npm run --prefix apps/frontend build",
+    "serve": "npm run --prefix apps/frontend serve",
+    "clean-slate": "npx -y rimraf node_modules **/node_modules/ package-lock.json && npm i"
+  },
+  "author": "Tobias Lundin",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ]
+}

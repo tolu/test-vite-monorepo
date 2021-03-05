@@ -1,0 +1,11 @@
+// define variable
+$color: white;
+// override color from another file
+// that file import variables from /common
+// /common file uses alias to load from ./styles/common-variables.scss
+// if everything works, color = pink
+@import './styles/variables.scss';
+
+.App-header {
+  color: $color;
+}

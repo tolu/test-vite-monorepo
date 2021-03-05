@@ -1,0 +1,12 @@
+{
+  "name": "@tolu/common",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "react": "17.0.0"
+  },
+  "license": "MIT"
+}
