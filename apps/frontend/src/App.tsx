@@ -13,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <Mega></Mega>
         <p>Hello Vite + React!</p>
+        <code>{JSON.stringify(pkgJson)}</code>
         <p>
           <button onClick={() => setCount((count) => count + 1)}>
             count is: {count}
