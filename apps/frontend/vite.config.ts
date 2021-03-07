@@ -13,8 +13,6 @@ export default defineConfig({
   resolve: {
     alias: {
       'SASS_VARIABLES': resolve(__dirname, 'src/styles/common-variables.scss'),
-      // fix old dep loading
-      'socket.io-client': 'socket.io-client/lib/index.js'
     }
   },
   define: {
