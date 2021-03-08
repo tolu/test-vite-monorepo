@@ -4,7 +4,6 @@ import { dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 import { name, version } from './package.json';
 
-// @ts-ignore
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // https://vitejs.dev/config/
