@@ -13,6 +13,7 @@ function App() {
         <SvgLogo className="App-logo" />
         <Mega></Mega>
         <p>Hello Vite + React!</p>
+        <p className="Info-Box">This example was made to accompany this article<br/><a className="App-link" href="https://dev.to/tolu/vitejs-replacing-create-react-app-in-a-monorepo-31nd">ViteJs - replacing create-react-app in a monorepo</a> </p>
         <code>{JSON.stringify(pkgJson)}</code>
         <p>
           <button onClick={() => setCount((count) => count + 1)}>
