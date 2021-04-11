@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import logo from './logo.svg'
-import { Mega } from '@tolu/common/src/components/Mega';
+import { ReactComponent as SvgLogo} from './logo.svg'
+import { Mega } from '@tolu/common/src/components/Mega'
 import './App.css'
 import './App.scss'
 
@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <SvgLogo className="App-logo" />
         <Mega></Mega>
         <p>Hello Vite + React!</p>
         <code>{JSON.stringify(pkgJson)}</code>
