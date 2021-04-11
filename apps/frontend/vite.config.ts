@@ -17,5 +17,9 @@ export default defineConfig({
   },
   define: {
     pkgJson: { name, version }
+  },
+  build: {
+    emptyOutDir: true,
+    outDir: '../../docs',
   }
 })

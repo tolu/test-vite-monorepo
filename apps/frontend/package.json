@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "test": "tsc",
+    "build": "vite build --base=/test-vite-monorepo/",
     "serve": "vite preview"
   },
   "dependencies": {
